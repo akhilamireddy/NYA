@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://akhilamireddy.github.io/newyearapp",
+  "homepage": "https://akhilamireddy.github.io/NYA",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
