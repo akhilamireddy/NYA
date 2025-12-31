@@ -146,7 +146,7 @@ function App() {
           style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
         >
           <h1 style={{ fontFamily: "'Pacifico', cursive", color: '#ff6f61', fontSize: '3rem', marginBottom: '2rem' }}>
-            New Year Wish Generator ✨
+            Get Your New Year Wish ✨
           </h1>
           <form onSubmit={handleSearch} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
             <input
@@ -161,7 +161,7 @@ function App() {
           </form>
         </motion.div>
       ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
           <WishCard name={name} message={message} onReply={handleReply} />
           <button onClick={handleReset} style={{ marginTop: '2rem', background: '#fff', color: '#ff6f61', border: '2px solid #ff6f61' }}>
             Check Another Name

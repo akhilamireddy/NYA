@@ -53,8 +53,8 @@ const WishCard = ({ name, message, onReply }) => {
                         style={{
                             padding: '8px 20px',
                             fontSize: '1rem',
-                            background: '#ff6f61',
-                            width: 'auto'
+                            // background: '#ff6f61',
+                            background: '#ff6f61'
                         }}
                     >
                         Send Reply 💌
